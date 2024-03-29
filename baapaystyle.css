@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar li img{
+    width:120px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+.paymentmain{
+    display: flex;
+}
+.login{
+    border: 1px solid black;
+    width: 42%;
+    height: auto;
+    margin-left: 120px;
+    border: none;
+}
+.price{
+    border: 1px solid #c6c0c0;
+    width: 35%;
+    height: 450px;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 110px;
+    position: sticky;
+    top:75px
+}
+.resoffermain{
+    display: flex;
+    height: 50px;
+    line-height: 25px;
+    border: 1px solid #c6c0c0;
+    font-size: 18px;
+    margin-top: 50px;
+     border-radius: 10px; 
+      padding: 20px;
+      justify-content: space-between;
+    
+}
+.yourtrip{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.tripdates{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 10px;
+    line-height: 25px;
+    border-bottom: 1px solid #c6c0c0;
+}
+.indialogin{
+    border: 1px solid #c6c0c0;
+    border-radius: 10px;
+}
+.phonenumber{
+    /* padding: 10px; */
+}
+.phonenumber input{
+width: 99%;
+height: 45px;
+border-radius: 10px;
+border: none;
+
+}
+.countrypay{
+    border-bottom: 1px solid #c6c0c0;
+    padding: 10px;
+}
+.welltext{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.contiuebutton{
+    margin-top: 10px;
+}
+.contiuebutton button{
+    width: 100%;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    background-color: #ff385c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+.orline{
+    display: flex;
+    margin-top: 20px;
+}
+.orline1{
+    color: #c6c0c0;
+
+}
+.orline2{
+    margin-left: 18px;
+    color: #c6c0c0;
+}
+.ormain{
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+.socialcontinue{
+    display:flex;
+    margin-top: 20px;
+}
+.facebookcon{
+    border: 1px solid black;
+ height: 20px;
+ width: 30%;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ border-radius: 5px;
+}
+.googlecon{
+    border: 1px solid black;
+    height: 20px;
+ width: 30%;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ border-radius: 5px;
+ margin-left: 25px;
+   
+}
+.applecon{
+    border: 1px solid black;
+    height: 20px;
+ width: 30%;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ border-radius: 5px;
+ margin-left: 25px;
+}
+.emailcon{
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 5px;  
+}
+.emailcon input{
+    width: 99%;
+    text-align: center; 
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-radius: 5px;
+     border: none;   
+}
+
+/* price side */
+
+.priceimgmain{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+.imagepricetext{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.imageprice img{
+    border-radius: 10px;
+}
+.detailhead{
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.resrate{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 35px;
+    margin-top: -20px;
+    /* border-bottom: 1px solid black; */
+}
+.totalrate{
+    /* border: 1px solid black; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.footer3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border: 1px solid #DDDDDD;
+    margin-top: 50px;
+    background-color: #f7f7f7;
+    
+}
+.privacy{
+    color: black;  
+    margin-left: 10px; 
+}
+.privacy:hover{
+    border-bottom: 1px solid black;
+}
+.terms{
+    color: black;  
+    margin-left: 10px; 
+}
+.terms:hover{
+    border-bottom: 1px solid black;
+}
+.sitemap{
+    color: black;  
+    margin-left: 10px; 
+}
+.sitemap:hover{
+    border-bottom: 1px solid black;
+}
+.company{
+    color: black;  
+    margin-left: 10px; 
+}
+.company:hover{
+    border-bottom: 1px solid black;
+}
